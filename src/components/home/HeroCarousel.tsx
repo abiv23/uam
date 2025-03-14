@@ -47,7 +47,7 @@ export default function HeroCarousel() {
             <CarouselItem key={slide.id} className="relative">
               <div className="relative w-full h-[500px] md:h-[600px] lg:h-[700px]">
                 <Image
-                  src={slide.imageUrl}
+                  src={slide.imageUrl || '/images/uam-hq.png'}
                   alt={slide.title}
                   fill
                   className="object-cover"

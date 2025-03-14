@@ -54,7 +54,7 @@ export default function FeaturedProjects() {
             >
               <div className="relative h-64 w-full overflow-hidden">
                 <Image
-                  src={project.imageUrl}
+                  src={project.imageUrl || '/images/uam-hq.png'}
                   alt={project.title}
                   fill
                   className="object-cover transition-transform duration-300 group-hover:scale-105"
