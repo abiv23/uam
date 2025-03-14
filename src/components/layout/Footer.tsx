@@ -15,7 +15,7 @@ export default function Footer() {
               </li>
               <li>
                 <Link href="/about/jrm-gives" className="text-zinc-300 hover:text-white transition-colors">
-                  JRM Gives
+                  UAM Gives
                 </Link>
               </li>
               <li>
@@ -87,15 +87,15 @@ export default function Footer() {
             <h3 className="text-xl font-semibold mb-4">Contact</h3>
             <ul className="space-y-2">
               <li className="text-zinc-300">
-                <strong>New York:</strong><br />
-                66 Hudson Blvd East, 24th Floor<br />
-                New York, NY 10001
+                <strong>Los Angeles:</strong><br />
+                15821 Ventura Blvd<br />
+                Encino, CA 91436
               </li>
               <li className="text-zinc-300">
-                <strong>Email:</strong> jrmny@jrmcm.com
+                <strong>Email:</strong> cavsChamps2016@gmail.com
               </li>
               <li className="text-zinc-300">
-                <strong>Phone:</strong> (212) 545-0500
+                <strong>Phone:</strong> (480) 823-1382
               </li>
             </ul>
             <div className="mt-4 flex space-x-4">
@@ -112,7 +112,7 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 pt-8 border-t border-zinc-800 text-center text-zinc-400">
-          <p>&copy; {new Date().getFullYear()} JRM Construction Management. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} UAM Construction Management. All rights reserved.</p>
           <div className="mt-2 flex justify-center space-x-4 text-sm">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">
               Privacy Policy

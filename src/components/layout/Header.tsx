@@ -55,8 +55,8 @@ export default function Header() {
           <div className="relative h-12 w-32">
             {/* Placeholder for logo - to be replaced with actual logo */}
             <div className="flex items-center space-x-1">
-              <span className="text-black text-2xl font-bold">JR</span>
-              <div className="bg-red-600 h-6 w-6 flex items-center justify-center">
+              <span className="text-black text-2xl font-bold">UA</span>
+              <div className="bg-blue-600 h-6 w-6 flex items-center justify-center">
                 <span className="text-white text-lg font-bold">M</span>
               </div>
             </div>

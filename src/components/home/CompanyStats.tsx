@@ -5,7 +5,7 @@ export default function CompanyStats() {
         <div className="text-center max-w-3xl mx-auto mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 text-white">Excellence By The Numbers</h2>
           <p className="text-lg text-white/80">
-            JRM Construction Management has established a record of excellence in the construction industry.
+            UAM Construction Management has established a record of excellence in the construction industry.
           </p>
         </div>
 

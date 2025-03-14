@@ -14,7 +14,7 @@ import {
 const heroSlides = [
   {
     id: 1,
-    imageUrl: "https://www.jrmcm.com/content/uploads/2022/01/Website-Banner9.jpg",
+    imageUrl: "/images/uam-hq.png",
     title: "Excellence in Construction Management",
     description: "Building the future with expertise and precision",
     ctaText: "Explore Our Work",
@@ -22,7 +22,7 @@ const heroSlides = [
   },
   {
     id: 2,
-    imageUrl: "https://www.jrmcm.com/content/uploads/2023/12/Website-Best-Places-Banner-2023-scaled.jpg",
+    imageUrl: null,
     title: "Award-Winning Construction",
     description: "Recognized as one of the best places to work in NYC",
     ctaText: "Join Our Team",
@@ -30,7 +30,7 @@ const heroSlides = [
   },
   {
     id: 3,
-    imageUrl: "https://www.jrmcm.com/content/uploads/2024/08/Construction-Mgmt-1-scaled.jpeg",
+    imageUrl: null,
     title: "Innovative Design Solutions",
     description: "Creating spaces that inspire and perform",
     ctaText: "Our Expertise",

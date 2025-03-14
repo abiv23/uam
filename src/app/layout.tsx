@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "JRM Construction Management | Building Excellence",
-  description: "JRM Construction Management provides comprehensive construction services including construction management, general contracting, preconstruction, and design build solutions.",
+  title: "UAM Construction Management",
+  description: "UAM Construction Management",
 };
 
 export default function RootLayout({
