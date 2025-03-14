@@ -7,21 +7,21 @@ const featuredProjects = [
     id: 1,
     title: "Modern Office Transformation",
     category: "Corporate",
-    imageUrl: "https://www.jrmcm.com/content/uploads/2024/08/Construction-Mgmt-1-scaled.jpeg",
+    imageUrl: "",
     link: "/projects/corporate",
   },
   {
     id: 2,
     title: "Luxury Retail Experience",
     category: "Retail",
-    imageUrl: "https://www.jrmcm.com/content/uploads/2022/04/Screenshot-2022-04-14-at-21.53.21.jpg",
+    imageUrl: "",
     link: "/projects/retail",
   },
   {
     id: 3,
     title: "Healthcare Facility Design",
     category: "Healthcare",
-    imageUrl: "https://www.jrmcm.com/content/uploads/2022/04/Screenshot-2022-04-14-at-22.02.08.png",
+    imageUrl: "",
     link: "/projects/healthcare",
   },
 ]
@@ -48,7 +48,7 @@ export default function ProjectsShowcase() {
               <div className="relative overflow-hidden rounded-lg shadow-md transition-all duration-300 group-hover:shadow-lg">
                 <div className="aspect-video relative">
                   <Image
-                    src={project.imageUrl}
+                    src={project.imageUrl || '/images/uam-hq.png'}
                     alt={project.title}
                     fill
                     className="object-cover transition-transform duration-300 group-hover:scale-105"

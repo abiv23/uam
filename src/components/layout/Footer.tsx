@@ -14,7 +14,7 @@ export default function Footer() {
                 </Link>
               </li>
               <li>
-                <Link href="/about/jrm-gives" className="text-zinc-300 hover:text-white transition-colors">
+                <Link href="/about/uam-gives" className="text-zinc-300 hover:text-white transition-colors">
                   UAM Gives
                 </Link>
               </li>

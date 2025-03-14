@@ -13,7 +13,7 @@ const navigationItems = [
     href: "/about",
     submenu: [
       { name: "Our People", href: "/about/our-people" },
-      { name: "JRM Gives", href: "/about/jrm-gives" },
+      { name: "UAM Gives", href: "/about/uam-gives" },
       { name: "Our History", href: "/about/our-history" },
       { name: "Diversity, Equity, & Inclusion", href: "/about/dei" },
     ],
